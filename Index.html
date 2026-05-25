@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Företagsnamn – Modern Webdesign</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Inter, Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+        }
+
+        /* HERO */
+        header {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background: white;
+            color: #4f46e5;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 70px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* SERVICES */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* CONTACT */
+        .contact-box {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Företagsnamn</h1>
+    <p>Modern webbutveckling för företag som vill växa online.</p>
+    <a href="#kontakt" class="btn">Kontakta oss</a>
+</header>
+
+<section id="tjanster">
+    <h2>Våra tjänster</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Webbutveckling</h3>
+            <p>Snabba, moderna och responsiva hemsidor byggda för att konvertera.</p>
+        </div>
+        <div class="card">
+            <h3>SEO & Synlighet</h3>
+            <p>Vi hjälper dig synas högre på Google och nå fler kunder.</p>
+        </div>
+        <div class="card">
+            <h3>Support & Underhåll</h3>
+            <p>Vi tar hand om allt tekniskt så du kan fokusera på ditt företag.</p>
+        </div>
+    </div>
+</section>
+
+<section id="om">
+    <h2>Om oss</h2>
+    <p style="max-width: 700px; margin: auto; text-align: center;">
+        Vi bygger moderna hemsidor med fokus på design, snabbhet och användarvänlighet.
+        Perfekt för småföretag som vill ta nästa steg online.
+    </p>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <div class="contact-box">
+        <p><strong>Email:</strong> info@foretag.se</p>
+        <p><strong>Telefon:</strong> 070‑000 00 00</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Företagsnamn – Alla rättigheter förbehållna
+</footer>
+
+</body>
+</html>
